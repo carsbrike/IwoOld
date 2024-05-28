@@ -1,0 +1,1027 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
+:root {
+  --color-txt: ();
+  --b-blue: rgba(11,65,167,255);
+  --b-red: rgba(225,45,14,255);
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+body header {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  background-color: none;
+  align-items: center;
+  justify-content: center;
+  font-family: "Oswald", sans-serif;
+}
+body header .logo {
+  margin: 0 0;
+}
+body header .logo a {
+  min-width: 160px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+body header .logo a img {
+  width: 60px;
+}
+body header .logo a h1 {
+  color: black;
+  top: 45%;
+  text-shadow: 0px 0px 3px white;
+  font-size: 1.7rem;
+  margin: -10px;
+  background-color: rgba(255, 255, 255, 0.305);
+}
+body header .menu {
+  width: auto;
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  top: 80px;
+  background-color: none;
+  width: 100%;
+  height: 60px;
+  background-color: rgba(0, 0, 0, 0.502);
+}
+body header .menu ul {
+  display: flex;
+  flex-direction: row;
+  padding: 0 10px;
+  justify-content: center;
+  align-items: center;
+  max-width: 360px;
+}
+body header .menu ul li {
+  margin: 0 5px;
+}
+body header .menu ul li a {
+  color: white;
+  display: inline-block;
+  transition: 1s ease-in-out;
+  font-size: 1rem;
+  white-space: nowrap;
+  text-shadow: 0 0 2 black;
+  font-weight: 600;
+}
+body header .menu ul li:hover a {
+  color: #c10000;
+  transition: 0.7s ease-in-out;
+}
+body .main {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/IwoOld/src/img/tlo.jpg);
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+  background-position: 20% 50%;
+  display: flex;
+  justify-content: center;
+}
+body .main .main-in {
+  font-family: "Oswald", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 1170px;
+  width: 100%;
+}
+body .main .main-in .main-1 {
+  align-self: flex-end;
+  margin: 0 5%;
+  padding-top: 220px;
+  width: 280px;
+}
+body .main .main-in .main-1 h2 {
+  color: white;
+  text-transform: capitalize;
+  text-align: center;
+  padding: 5px 0;
+  margin: 0;
+  font-size: 1.8rem;
+  background-color: rgba(0, 0, 0, 0.035);
+  box-shadow: 0px 0px 54px 0px rgba(0, 0, 0, 0.09);
+}
+body .main .main-in .main-1 p {
+  margin: 0 0 30px 0;
+  color: white;
+  text-align: right;
+  font-size: 1rem;
+  font-weight: 400;
+  background-color: rgba(0, 0, 0, 0.035);
+  box-shadow: 0px 0px 54px 0px rgba(0, 0, 0, 0.09);
+}
+body .main .main-in .main-1 .main-button {
+  display: inline-block;
+  color: white;
+  background-color: rgba(130, 130, 130, 0.07);
+  padding: 5px 10px;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  border: 1px solid black;
+  box-shadow: 18px 16px 35px 0px rgba(0, 0, 0, 0.659);
+  animation: redwihte 3s infinite, shake 3s infinite;
+  transition: 1s ease-in-out;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+body .main .main-in .main-1 .main-button:hover {
+  background-color: black;
+  transition: 1s ease-in-out;
+}
+body .boxes {
+  background: linear-gradient(to right, rgba(245, 245, 245, 0.9), rgba(245, 245, 245, 0.9)), url(/IwoOld/src/img/pexels-pixabay-220182.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  padding-bottom: 100px;
+}
+body .boxes .box {
+  width: 100%;
+  height: 170px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .boxes .b-1 {
+  background-color: white;
+}
+body .boxes .b-2 {
+  background-color: #0b41a7;
+}
+body .boxes img {
+  width: 70px;
+}
+body .boxes a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  text-transform: uppercase;
+  width: 100%;
+  height: 100%;
+  transition: 0.3s ease-in-out;
+}
+body .boxes a b {
+  padding-top: 5px;
+  font-size: 1.3rem;
+  text-align: center;
+}
+body .boxes a:hover {
+  background-color: #3a75d4;
+  transition: 0.3s ease-in-out;
+}
+body .oferta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+body .oferta .gas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  overflow: hidden;
+  background: linear-gradient(to right, rgba(245, 245, 245, 0.9), rgba(245, 245, 245, 0.9)), url(/IwoOld/src/img/pexels-pixabay-220182.jpg);
+  background-position: center;
+  background-repeat: repeat;
+  background-size: 100vw;
+  padding-bottom: 100px;
+}
+body .oferta .gas h1 {
+  font-size: 3.2rem;
+  width: 100%;
+  background-color: var(--b-blue);
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  font-family: "Oswald", sans-serif;
+  margin-bottom: 100px;
+  margin-top: 0;
+  border-top: 1px solid black;
+}
+body .oferta .gas .g-1 {
+  z-index: 1;
+  max-width: 540px;
+  padding: 0 5px;
+}
+body .oferta .gas .g-1 img {
+  width: 100%;
+  border-radius: 5px;
+}
+body .oferta .gas .g-2 {
+  padding: 10px 0;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  justify-content: center;
+  overflow: hidden;
+}
+body .oferta .gas .g-2 img {
+  margin-top: 45px;
+  padding-right: 10px;
+  height: 540px;
+  position: absolute;
+  transform: rotate(-18deg);
+  opacity: 100%;
+  left: center;
+  z-index: 0;
+}
+body .oferta .gas .g-2 p {
+  background-color: var(--b-blue);
+  font-size: 1.2rem;
+  padding: 15px 10px;
+  margin: 5px 5px;
+  z-index: 1;
+  border-radius: 5px;
+  max-width: 300px;
+  font-family: "Oswald", sans-serif;
+}
+body .oferta .gas .g-2 p span {
+  font-weight: 800;
+}
+body .oferta .mechanika {
+  width: 100%;
+  background: linear-gradient(to right, rgba(245, 245, 245, 0.9), rgba(245, 245, 245, 0.9)), url(/IwoOld/src/img/pexels-pixabay-220182.jpg);
+  background-position: center;
+  background-repeat: repeat;
+  background-size: 100vw;
+  padding-bottom: 100px;
+}
+body .oferta .mechanika .mech h1 {
+  font-size: 3.2rem;
+  width: 100%;
+  background-color: var(--b-blue);
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  font-family: "Oswald", sans-serif;
+  margin-bottom: 100px;
+  margin-top: 0;
+}
+body .oferta .mechanika .mech .m-1 {
+  padding: 0 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+body .oferta .mechanika .mech .m-1 .m-box {
+  margin: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  position: relative;
+}
+body .oferta .mechanika .mech .m-1 .m-box img {
+  width: 310px;
+  filter: brightness(60%);
+  transition: 1s;
+}
+body .oferta .mechanika .mech .m-1 .m-box p {
+  text-transform: capitalize;
+  font-size: 1.3rem;
+  position: absolute;
+  color: #ededed;
+  font-family: "Oswald", sans-serif;
+  transition: 1s;
+  text-align: center;
+}
+body .oferta .mechanika .mech .m-1 .m-box:nth-child(1) img {
+  height: 207px;
+}
+body .oferta .mechanika .mech .m-1 .m-box:hover img {
+  filter: brightness(80%);
+  transition: 1s;
+}
+body .oferta .mechanika .mech .m-1 .m-box:hover p {
+  color: white;
+  transition: 1s;
+}
+body .oferta .elektronika {
+  width: 100%;
+  overflow: hidden;
+  background: linear-gradient(to right, rgba(245, 245, 245, 0.9), rgba(245, 245, 245, 0.9)), url(/IwoOld/src/img/pexels-pixabay-220182.jpg);
+  background-position: center;
+  background-repeat: repeat;
+  background-size: 100vw;
+  padding-bottom: 100px;
+}
+body .oferta .elektronika .ele {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+body .oferta .elektronika .ele h1 {
+  font-size: 2.3rem;
+  width: 100%;
+  min-height: 76px;
+  background-color: var(--b-blue);
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  font-family: "Oswald", sans-serif;
+  margin-bottom: 100px;
+  margin-top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .oferta .elektronika .ele .e-1 {
+  padding: 0 5px;
+}
+body .oferta .elektronika .ele .e-1 img {
+  width: 100%;
+}
+body .oferta .elektronika .ele .e-2 ul {
+  list-style-type: circle;
+  padding-left: 30px;
+}
+body .oferta .elektronika .ele .e-2 ul li {
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  font-family: "Oswald", sans-serif;
+}
+body .oferta .stacja {
+  width: 100%;
+  background: linear-gradient(to right, rgba(245, 245, 245, 0.9), rgba(245, 245, 245, 0.9)), url(/IwoOld/src/img/pexels-pixabay-220182.jpg);
+  background-position: center;
+  background-repeat: repeat;
+  background-size: 100vw;
+  padding-bottom: 50px;
+}
+body .oferta .stacja .stac {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+body .oferta .stacja .stac h1 {
+  width: 100%;
+  text-align: center;
+  text-transform: capitalize;
+  background-color: var(--b-blue);
+  color: white;
+  font-family: "Oswald", sans-serif;
+  margin-bottom: 100px;
+  margin-top: 0;
+  min-height: 76px;
+  font-size: 2.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .oferta .stacja .stac .s-1 {
+  padding: 0 5px;
+}
+body .oferta .stacja .stac .s-1 a {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-transform: capitalize;
+  transition: 1s ease-in-out;
+}
+body .oferta .stacja .stac .s-1 a img {
+  width: 100%;
+  transition: 0.5s ease-in-out;
+}
+body .oferta .stacja .stac .s-1 a h5 {
+  display: none;
+  font-size: 2.4rem;
+  transition: 1s ease-in-out;
+}
+body .oferta .stacja .stac .s-1 a:hover img {
+  filter: brightness(50%);
+  transition: 0.5s ease-in-out;
+}
+body .oferta .stacja .stac .s-1 a:hover h5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  transition: 1s ease-in-out;
+}
+body .oferta .stacja .stac .s-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Oswald", sans-serif;
+  padding: 0 5px;
+}
+body .oferta .stacja .stac .s-2 h5 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+body .oferta .stacja .stac .s-2 ul {
+  border: 1px solid rgba(228, 226, 226, 0.538);
+  padding: 0;
+}
+body .oferta .stacja .stac .s-2 ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5px;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+body .oferta .stacja .stac .s-2 ul li p {
+  display: flex;
+  flex-direction: column;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}
+body .oferta .stacja .stac .s-2 ul li p span {
+  margin: 0;
+  font-weight: 200;
+  text-align: start;
+  font-size: 0.9rem;
+}
+body .oferta .stacja .stac .s-2 ul li span {
+  margin-left: 10px;
+  min-width: 44px;
+  text-align: end;
+}
+body .oferta .stacja .stac .s-2 ul li:nth-child(even) {
+  background-color: rgba(228, 226, 226, 0.538);
+}
+body .oferta .stacja .stac .s-2 ul li:hover {
+  background-color: #3a75d4;
+}
+body .oferta .stacja .stac .s-2 ul li:hover p {
+  color: white;
+}
+body .oferta .stacja .stac .s-2 ul li:hover span {
+  color: white;
+}
+body .kontakt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #242424;
+  font-family: "Oswald", sans-serif;
+  padding: 20px 0 50px 0;
+}
+body .kontakt h2 {
+  color: white;
+  font-size: 2rem;
+}
+body .kontakt .kk {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+body .kontakt .kk .k-1 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  padding: 0 5px;
+}
+body .kontakt .kk .k-1 .k-1-1 h1 {
+  font-weight: 800;
+  margin: 0;
+  letter-spacing: 1px;
+}
+body .kontakt .kk .k-1 .k-1-1 h2 {
+  margin: 0;
+  text-transform: capitalize;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+body .kontakt .kk .k-1 .k-1-2 h3 {
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  font-size: 1.4rem;
+  margin-bottom: 0;
+}
+body .kontakt .kk .k-1 .k-1-2 .k-1-2-b {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: row;
+  width: 310px;
+  margin: 10px 0;
+}
+body .kontakt .kk .k-1 .k-1-2 .k-1-2-b i {
+  color: white;
+  margin: 0 10px;
+  font-size: 2.3rem;
+  width: 30px;
+  text-align: center;
+}
+body .kontakt .kk .k-1 .k-1-2 .k-1-2-b p {
+  margin-left: 10px;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  margin-top: 0;
+  margin-bottom: 0;
+  letter-spacing: 2px;
+}
+body .kontakt .kk .k-1 .k-1-2 .k-1-2-b p span {
+  font-weight: 800;
+}
+body .kontakt .kk .k-1 .k-1-2 .k-1-2-k h4 {
+  text-transform: capitalize;
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+}
+body .kontakt .kk .k-1 .k-1-2 .k-1-2-k p {
+  font-size: 1.3rem;
+  display: flex;
+  align-items: center;
+  letter-spacing: 1px;
+}
+body .kontakt .kk .k-1 .k-1-2 .k-1-2-k p i {
+  font-size: 2rem;
+  margin-right: 20px;
+}
+body .kontakt .kk .k-2 {
+  margin-top: 50px;
+  padding: 0 5px;
+  width: 97%;
+  max-width: 700px;
+}
+body .kontakt .kk .k-2 iframe {
+  width: 100%;
+}
+body .kontakt-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Oswald", sans-serif;
+  padding: 40px 0 50px 0;
+  background: linear-gradient(to right, rgba(245, 245, 245, 0.9), rgba(245, 245, 245, 0.9)), url(/IwoOld/src/img/pexels-pixabay-220182.jpg);
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+}
+body .kontakt-2 .kk {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+body .kontakt-2 .kk .k-1 {
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  padding: 0 5px;
+}
+body .kontakt-2 .kk .k-1 .k-1-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body .kontakt-2 .kk .k-1 .k-1-1 h1 {
+  font-weight: 800;
+  margin: 0;
+  letter-spacing: 1px;
+}
+body .kontakt-2 .kk .k-1 .k-1-1 h2 {
+  margin: 0;
+  text-transform: capitalize;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+body .kontakt-2 .kk .k-1 .k-1-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body .kontakt-2 .kk .k-1 .k-1-2 h3 {
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  font-size: 1.4rem;
+  margin-bottom: 0;
+}
+body .kontakt-2 .kk .k-1 .k-1-2 .k-1-2-b {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: row;
+  width: 310px;
+  margin: 10px 0;
+}
+body .kontakt-2 .kk .k-1 .k-1-2 .k-1-2-b i {
+  color: black;
+  margin: 0 10px;
+  font-size: 2.3rem;
+  width: 30px;
+  text-align: center;
+}
+body .kontakt-2 .kk .k-1 .k-1-2 .k-1-2-b p {
+  margin-left: 10px;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  margin-top: 0;
+  margin-bottom: 0;
+  letter-spacing: 2px;
+}
+body .kontakt-2 .kk .k-1 .k-1-2 .k-1-2-b p span {
+  font-weight: 800;
+}
+body .kontakt-2 .kk .k-1 .k-1-2 .k-1-2-k h4 {
+  text-transform: capitalize;
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+}
+body .kontakt-2 .kk .k-1 .k-1-2 .k-1-2-k p {
+  font-size: 1.3rem;
+  display: flex;
+  align-items: center;
+  letter-spacing: 1px;
+}
+body .kontakt-2 .kk .k-1 .k-1-2 .k-1-2-k p i {
+  font-size: 2rem;
+  margin-right: 20px;
+}
+body .kontakt-2 .kk .k-2 {
+  margin-top: 50px;
+  padding: 0 5px;
+  width: 97%;
+  max-width: 700px;
+}
+body .kontakt-2 .kk .k-2 iframe {
+  width: 100%;
+}
+body footer {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 20px;
+  flex-direction: column;
+  font-family: "Oswald", sans-serif;
+}
+body footer h1 {
+  margin: 0;
+  color: white;
+  text-transform: capitalize;
+  font-size: 1.1rem;
+  text-align: center;
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+body footer h2 {
+  font-size: 1rem;
+  font-weight: 200;
+  color: white;
+  margin: 0;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}
+body footer h2 a {
+  color: white;
+  text-decoration: underline;
+}
+body .certyfikat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 60px 0;
+  background: linear-gradient(to right, rgba(245, 245, 245, 0.9), rgba(245, 245, 245, 0.9)), url(/IwoOld/src/img/pexels-pixabay-220182.jpg);
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+}
+body .certyfikat h1 {
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+  font-size: 2.2rem;
+  margin: 20px 0;
+  letter-spacing: 2px;
+}
+body .certyfikat .gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+  margin: 0;
+}
+body .certyfikat .gallery a img {
+  width: 300px;
+  height: 400px;
+  transition: 1s;
+  padding: 10px 10px;
+}
+
+@media (min-width: 650px) {
+  body .oferta .gas .g-2 img {
+    margin-top: 70px;
+    height: 605px;
+    padding: 0;
+    transform: rotate(-21deg);
+  }
+  body .oferta .gas .g-2 p {
+    margin: 20px 29px;
+  }
+  body .oferta .stacja .stac .s-1 a img {
+    width: 80%;
+    transition: 0.5s ease-in-out;
+  }
+}
+@media (min-width: 768px) {
+  body header .logo {
+    margin-left: auto;
+  }
+  body header .menu {
+    position: static;
+    max-width: 1010px;
+    justify-content: end;
+    margin-right: auto;
+    background-color: rgba(0, 0, 0, 0);
+  }
+  body header .menu ul li {
+    margin: 0 15px;
+  }
+  body header .menu ul li a {
+    color: black;
+  }
+  body header .menu ul li a:hover {
+    animation: menubutton 2s linear infinite;
+  }
+  body .main {
+    height: 860px;
+  }
+  body .main .main-in .main-1 {
+    width: 320px;
+  }
+  body .main .main-in .main-1 h2 {
+    font-size: 2rem;
+  }
+  body .main .main-in .main-1 p {
+    font-size: 1.1rem;
+  }
+  body .boxes {
+    display: flex;
+    flex: wrap;
+  }
+  body .boxes .box {
+    width: 25%;
+  }
+  body .boxes a b {
+    font-size: 1rem;
+  }
+  body .oferta {
+    padding-top: 0 !important;
+  }
+  body .oferta .gas {
+    margin: 0;
+  }
+  body .oferta .gas .g-1 {
+    max-width: 700px;
+  }
+  body .oferta .gas .g-2 {
+    max-width: 1000px;
+  }
+  body .oferta .gas .g-2 img {
+    transform: rotate(16deg);
+    margin-top: -95px;
+    left: center;
+    width: 650px;
+    height: 565px;
+  }
+  body .oferta .mechanika {
+    width: 100%;
+  }
+  body .oferta .mechanika .mech h1 {
+    font-size: 3.2rem;
+    width: 100%;
+    background-color: var(--b-blue);
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-family: "Oswald", sans-serif;
+  }
+  body .oferta .mechanika .mech .m-1 {
+    padding: 0 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  body .oferta .mechanika .mech .m-1 .m-box {
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+  }
+  body .oferta .mechanika .mech .m-1 .m-box img {
+    width: 310px;
+    mix-blend-mode: darken;
+  }
+  body .oferta .mechanika .mech .m-1 .m-box p {
+    text-transform: capitalize;
+    font-size: 1.3rem;
+    position: absolute;
+    color: white;
+    font-family: "Oswald", sans-serif;
+  }
+  body .oferta .mechanika .mech .m-1 .m-box:nth-child(2) img {
+    width: 400px;
+  }
+  body .oferta .mechanika .mech .m-1 .m-box:nth-child(3) img {
+    width: 400px;
+  }
+  body .oferta .mechanika .mech .m-1 .m-box:nth-child(6) img {
+    width: 400px;
+  }
+  body .kontakt .kk {
+    display: flex;
+    flex-direction: row;
+    max-width: 870px;
+  }
+  body .kontakt-2 {
+    height: 80vh;
+  }
+  body .kontakt-2 .kk {
+    display: flex;
+    flex-direction: row;
+    max-width: 1100px;
+  }
+  body .kontakt-2 .kk .k-1 {
+    margin-right: 40px;
+  }
+  body .kontakt-2 .kk .k-1 .k-1-1 {
+    align-items: start;
+  }
+  body .kontakt-2 .kk .k-1 .k-1-2 {
+    align-items: start;
+  }
+  body .certyfikat {
+    height: auto;
+  }
+  body .certyfikat h1 {
+    margin: 40px 0;
+    font-size: 3rem;
+  }
+  body .certyfikat .gallery {
+    max-width: 1000px;
+  }
+  body .certyfikat .gallery a img {
+    transition: 1s;
+    padding: 15px 15px;
+    width: 310px;
+    height: 385px;
+  }
+  body .certyfikat .gallery a img:hover {
+    transform: scale(1.1);
+  }
+}
+@media (min-width: 1024px) {
+  body .oferta .mechanika .mech .m-1 .m-box img {
+    width: 360px;
+  }
+  body .oferta .mechanika .mech .m-1 .m-box:nth-child(1) img {
+    height: 240px;
+  }
+  body .oferta .mechanika .mech .m-1 .m-box:nth-child(2) img {
+    width: 450px;
+  }
+  body .oferta .mechanika .mech .m-1 .m-box:nth-child(3) img {
+    width: 450px;
+  }
+  body .oferta .mechanika .mech .m-1 .m-box:nth-child(6) img {
+    width: 450px;
+  }
+  body footer {
+    padding: 20px 100px;
+    flex-direction: row;
+  }
+  body footer h1 {
+    font-size: 1rem;
+  }
+  body footer h2 {
+    font-size: 0.9rem;
+  }
+}
+@media (min-width: 1133px) {
+  body .oferta .gas .g-1 img {
+    max-width: 1100px;
+  }
+  body .oferta .gas .g-2 {
+    max-width: 1100px;
+  }
+  body .oferta .mechanika .mech {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  body .oferta .mechanika .mech .m-1 {
+    max-width: 1100px;
+  }
+  body .main .main-in {
+    margin-left: 70px;
+  }
+  body .main .main-in .main-1 {
+    width: 320px;
+  }
+}
+@keyframes menubutton {
+  0% {
+    transform: scale(1);
+  }
+  33% {
+    transform: scale(1.1);
+  }
+  66% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes redwihte {
+  0% {
+    color: #ffe600;
+  }
+  20% {
+    color: #ebe600;
+  }
+  40% {
+    color: #ffe600;
+  }
+  60% {
+    color: #ebe600;
+  }
+  80% {
+    color: #ffe600;
+  }
+  100% {
+    color: #ebe600;
+  }
+}
+@keyframes shake {
+  0% {
+    transform: rotate(0deg);
+  }
+  20% {
+    transform: rotate(10deg);
+  }
+  40% {
+    transform: rotate(0deg);
+  }
+  60% {
+    transform: rotate(-10deg);
+  }
+  62% {
+    transform: rotate(0deg);
+  }
+  64% {
+    transform: rotate(5deg);
+  }
+  66% {
+    transform: rotate(-5deg);
+  }
+  68% {
+    transform: rotate(5deg);
+  }
+  70% {
+    transform: rotate(-5deg);
+  }
+  80% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
